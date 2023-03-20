@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d7b9b8d7ea5f4d54bd801f0c84fe4668" Name="Diagram1">
+        <EntityTypeShape EntityType="BouncingBallsModel.Agent" Width="1.5" PointX="3" PointY="10.5" />
+        <EntityTypeShape EntityType="BouncingBallsModel.AgentPriorityHistory" Width="1.5" PointX="5.25" PointY="21.875" />
+        <EntityTypeShape EntityType="BouncingBallsModel.AgentType" Width="1.5" PointX="0.75" PointY="11.625" />
+        <EntityTypeShape EntityType="BouncingBallsModel.Material" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="BouncingBallsModel.MaterialCountHistory" Width="1.5" PointX="5.25" PointY="15.875" />
+        <EntityTypeShape EntityType="BouncingBallsModel.MaterialType" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="BouncingBallsModel.Product" Width="1.5" PointX="3" PointY="5.875" />
+        <EntityTypeShape EntityType="BouncingBallsModel.ProductCostHistory" Width="1.5" PointX="5.25" PointY="9.375" />
+        <EntityTypeShape EntityType="BouncingBallsModel.ProductMaterial" Width="1.5" PointX="5.25" PointY="6.625" />
+        <EntityTypeShape EntityType="BouncingBallsModel.ProductSale" Width="1.5" PointX="5.25" PointY="3.375" />
+        <EntityTypeShape EntityType="BouncingBallsModel.ProductType" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="BouncingBallsModel.Shop" Width="1.5" PointX="5.25" PointY="19.125" />
+        <EntityTypeShape EntityType="BouncingBallsModel.Supplier" Width="1.5" PointX="5.25" PointY="12.75" />
+        <EntityTypeShape EntityType="BouncingBallsModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3.25" />
+        <AssociationConnector Association="BouncingBallsModel.FK_Agent_AgentType" />
+        <AssociationConnector Association="BouncingBallsModel.FK_AgentPriorityHistory_Agent" />
+        <AssociationConnector Association="BouncingBallsModel.FK_ProductSale_Agent" />
+        <AssociationConnector Association="BouncingBallsModel.FK_Shop_Agent" />
+        <AssociationConnector Association="BouncingBallsModel.FK_Material_MaterialType" />
+        <AssociationConnector Association="BouncingBallsModel.FK_MaterialCountHistory_Material" />
+        <AssociationConnector Association="BouncingBallsModel.FK_ProductMaterial_Material" />
+        <AssociationConnector Association="BouncingBallsModel.FK_Product_ProductType" />
+        <AssociationConnector Association="BouncingBallsModel.FK_ProductCostHistory_Product" />
+        <AssociationConnector Association="BouncingBallsModel.FK_ProductMaterial_Product" />
+        <AssociationConnector Association="BouncingBallsModel.FK_ProductSale_Product" />
+        <AssociationConnector Association="BouncingBallsModel.MaterialSupplier" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
